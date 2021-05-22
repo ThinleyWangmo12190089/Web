@@ -1,0 +1,552 @@
+*{
+	font-family: sans-serif;
+	border:none;
+	padding: 0px;
+}
+header{		/*header is fixed, doesnotmove while scrolling*/
+	height: 80px;
+	box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    background-color: #fff;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9;
+}
+.rectangle{
+	width:500px;
+	height:65px;
+}
+.rectangle ul{
+	list-style:none;
+}
+.rectangle ul li a{
+	color:black;
+	text-decoration:none;
+	font-weight: bold;
+}
+.logo{
+	position:relative;
+	left:30px;
+	top:5px;
+}
+.men{
+	font-size:12px;
+	position:relative;
+	bottom:40px;
+	left:130px;
+}
+.women{
+	font-size:12px;
+	position:relative;
+	bottom:55px;
+	left:190px;
+}
+.kids{
+	font-size:12px;
+	position:relative;
+	bottom:70px;
+	left:275px;
+}
+.home{
+	font-size:12px;
+	position:relative;
+	bottom:83px;
+	left:335px;
+}
+.discover{
+	font-size:12px;
+	position:relative;
+	bottom:98px;
+	left:455px;
+}
+/*styling the search field*/
+form.search input[type=text]{
+	padding:12px;
+	font-size:15px;
+	float:right;
+	width:75%;
+	height:20px;
+	background:#F0F5F5;
+	position:relative;
+	bottom:145px;
+	left:117%;
+	text-align:center;
+	border-radius:2%;
+}
+/*styling the search button*/
+.fa-search{
+	color:#C5D8D8;
+	position:absolute;
+	top:25px;
+	left:700px;
+}
+/*putting icons*/
+.fa-user{
+	position:relative;
+	bottom:140px;
+	left:225%;
+}
+.pro{		/*styling the name of an icon*/
+	text-decoration:none;
+	color:black;
+	position:relative;
+	left:219%;
+	bottom:120px;
+}
+.fa-bookmark{
+	position:relative;
+	bottom:140px;
+	left:229%;
+}
+.wishlist{		/*styling the name of an icon*/
+	text-decoration:none;
+	color:black;
+	position:relative;
+	left:238%;
+	bottom:138px;
+}
+.fa-shopping-bag{
+	position:relative;
+	bottom:160px;
+	left:245%;
+}
+.bag{		/*styling the name of an icon*/
+	text-decoration:none;
+	color:black;
+	position: relative;
+	left: 255%;
+	bottom: 155px;
+}
+.forimg{	/* styling div for sliding images*/
+	position: relative;
+	top: 100px;
+	background-color: #FFF;
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	padding:45px;
+}
+.slide-image{
+	width: 100%;
+	height: 333px;
+	overflow: hidden;
+
+}
+.slide-fade{
+	width: 500%;
+	height: 333px;
+	animation: slide-image infinite 30s 2s;
+}
+.slide-i{
+	width: 1230px;
+	height: 343px;
+}
+/*stages for animating images*/
+@keyframes slide-image
+{
+	12.5%
+	{
+		margin-left: -100%;
+	}
+	25%
+	{
+		margin-left: -100%;
+	}
+	37.5%
+	{
+		margin-left: -200%;
+	}
+	50%
+	{
+		margin-left: -200%;
+	}
+	62.5%
+	{
+		margin-left: -300%;
+	}
+	75%
+	{
+		margin-left: -300%;
+	}
+	87.5%
+	{
+		margin-left: -400%;
+	}
+	100%
+	{
+		margin-left: -400%;
+	}
+}
+.for1{
+	position: relative;
+	left: 3px;
+}
+.for2{
+	position: relative;
+	left: 50px;
+}
+.for3{
+	position: relative;
+	left: 100px;
+}
+.for4{
+	position: relative;
+	left: 150px;
+} 
+.forpay{
+	width: 100%;
+	height: 123px;
+	overflow: hidden;
+}
+.pay{
+	width: 500%;
+	height: 123px;
+	animation: forpay infinite 20s 2s;
+}
+.imageS{
+	width: 1225px;
+	height: 123px;
+}
+/*animating images*/
+@keyframes forpay
+{
+	12.5%
+	{
+		margin-left: -100%;
+	}
+	25%
+	{
+		margin-left: -100%;
+	}
+	37.5%
+	{
+		margin-left: -200%;
+	}
+	50%
+	{
+		margin-left: -200%;
+	}
+	62.5%
+	{
+		margin-left: -300%;
+	}
+	75%
+	{
+		margin-left: -300%;
+	}
+	87.5%
+	{
+		margin-left: -400%;
+	}
+	100%
+	{
+		margin-left: -400%;
+	}
+}
+.brand a{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+.show a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	position: relative;
+	bottom: 15px;
+
+}
+.n2{
+	position: relative;
+	left: 50px;
+}
+.n3{
+	position: relative;
+	left: 100px;
+}
+.n4{
+	position: relative;
+	left: 150px;
+}
+.n6{
+	position: relative;
+	left: 55px;
+	bottom: 2px;
+}
+.n7{
+	position: relative;
+	left: 110px;
+}
+.n8{
+	position: relative;
+	left: 169px;
+}
+.youshop a{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+.pick a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	position: relative;
+	bottom: 15px;
+}
+.p2{
+	position: relative;
+	bottom: 3px;
+	left: 1px;
+}
+.p3{
+	position: relative;
+	left: 75px;
+	bottom: 10px;
+}
+.p4{
+	position: relative;
+	left: 75px;
+}
+.trending a{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+.wardrobe a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	position: relative;
+	bottom: 15px;
+}
+.k1{
+	position: relative;
+	bottom: 10px;
+}
+.k2{
+	position: relative;
+	left: 50px;
+}
+.k3{
+	position: relative;
+	left: 100px;
+}
+.k4{
+	position: relative;
+	left: 150px;
+}
+.k6{
+	position: relative;
+	left: 55px;
+}
+.k7{
+	position: relative;
+	left: 100px;
+}
+.k8{
+	position: relative;
+	left: 153px;
+}
+.dis a{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	font-size: 30px;
+}
+.stay a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	position: relative;
+	bottom: 15px;
+}
+.o1{
+	position: relative;
+	bottom: 210px;
+}
+.o2{
+	position: relative;
+	bottom: 235px;
+}
+.o3{
+	position: relative;
+	top: 7px;
+	left: 50px;
+}
+.o4{
+	position: relative;
+	bottom: 230px;
+	left: 50px;
+}
+.steal a{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	font-size: 30px;
+	position: relative;
+	bottom: 230px;
+}
+.by a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	position: relative;
+	bottom: 245px;
+}
+.qimg a{
+	position: relative;
+	bottom: 250px;
+} 
+.q2{
+	position: relative;
+	left: 50px;
+}
+.q3{
+	position: relative;
+	left: 100px;
+}
+.q5{
+	position: relative;
+	top: 50px;
+
+}
+.q4{
+	position: relative;
+	left: 150px;
+}
+.q6{
+	position: relative;
+	left: 47px;
+	top: 50px;
+}
+.q7{
+	position: relative;
+	left: 95px;
+	top: 50px;
+}
+.q8{
+	position: relative;
+	left: 145px;
+	top: 50px;
+}
+.online{
+	font-size: 15px;
+	position: relative;
+	bottom: 100px;
+	width: 100%; 
+	background-color: #fafafa;
+	padding: 25px;
+}
+.insideonline{
+	position: relative;
+	top: 10px;
+}
+.insideonline ul li{
+	position: relative;
+	left: 50px;
+	list-style: none;
+	color: #000000;
+	line-height: 25px;
+}
+.insideonline ul li a{
+	text-decoration: none;
+	color: grey;
+}
+.os a{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	left: 50px;
+}
+.usefulL{
+	font-size: 15px;
+	position: relative;
+	bottom: 210px;
+	left: 230px;
+}
+.usefulL ul li{
+	position: relative;
+	left: 50px;
+	list-style: none;
+	color: #000000;
+	line-height: 25px;
+}
+.usefulL ul li a{
+	text-decoration: none;
+	color: grey;
+}
+.useful a{
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	left: 50px;
+	text-decoration: none;
+	color: black;
+}
+.mobile{
+	position: relative;
+	bottom: 560px;
+	left: 500px;
+}
+.exp a{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.g1{
+	width: 200px;
+}
+.g2{
+	width: 170px;	
+}
+.fimgg a{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.f1{
+	width: 30px;	
+}
+.f2{
+	width: 35px;	
+}
+.f3{
+	width: 30px;	
+}
+.f4{
+	width: 30px;	
+}
+.or{
+	position: relative;
+	bottom: 160px; 
+	left: 450px;
+}
+.fk1{
+	position: relative;
+	right: 400px;
+	bottom: 20px;
+}
+.fk2{
+	position: relative;
+	right: 400px;
+}
+.fk3{
+	position: relative;
+	right: 420px;
+}
+.fk4{
+	position: relative;
+	right: 400px;
+}

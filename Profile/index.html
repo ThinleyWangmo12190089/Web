@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thinley Wangmo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">	
+	<!--Navigation bar-->
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a><!--Index Page-->
+		<a href="cv.html">About Me</a><!--CV-->
+		<a href="bmi.html">Health</a><!--BMI-->
+		<a href="footprint.html">FootPrint</a><!--Places i visited-->
+		<a href="events.html">Events</a><!--Events held at gcit-->
+		<a href="college.html">Colleges</a><!--about college-->
+		<a href="javascript:void(0);" class="icon" onclick="myMethod()">
+			<span style="font-size:20px;cursor:pointer;color:#fff;">&#9776;</span>
+		</a>
+	</div>
+	<!--personal logo-->
+	<img src="logo2.jpeg" class="logo" style="">
+	<!--Quote that I believe in-->
+	<blockquote>&quot;In a fast moving high tech world, where the<br> only limit is your imagination, <br>you must learn to take charge of the transition<br> and inevitable evolution. <br>You must learn to take the first step.&quot;
+	<br>BY HIS MAJESTY THE KING OF BHUTAN
+	</blockquote>
+	<hr>
+	<!--My Description-->
+	<div class="box">
+			<article id="articles">
+				I am always the first person that my friends call because they know I am always there for them. Night or day, I make sure to take care of the people in my life. I put the same effort into making sure my work is done correctly. I like to interact with elder people, I love asking them about their life.<br> Don't get hurt by my words because I have got a very sharp tongue. Though I don't mean what I say, my mouth splits harsh words sometimes. I started to play badminton when I was 10 and I still like to play. I regret one thing in life that I have never tried to read books. Now, I know how important it is to read books. It is never too late to start.
+			</article>
+	<!--My own Picture-->
+	<img id="mypic" src="mypic.jpeg">
+</div>
+	<!--Footer-->
+		<footer style="background: #323232;opacity: 0.8;">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-snapchat-ghost"></a>
+			<br><br>
+			<p class="text">Phuentsholing, Bhutan +975 17565638 <br>Gyalpozhing College of Information Technology </p>
+			<p class="copyright">&copy Copyright 2020 tley All Rights Reserved</p>
+		</footer>	
+<!--For responsive nav bar-->	
+<script>
+	function myMethod() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		}
+		else {
+			x.className = "topnav";
+		}
+	}
+</script>
+</body>
+</html>

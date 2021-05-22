@@ -1,0 +1,118 @@
+body{
+	background-color:slategrey;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: Calibri;
+	font-size: 35px;
+}
+.border{
+	background-color: white;
+	color: black;
+	position: relative;
+	width: 538px;
+	height: 279px;
+	bottom: 51px;
+	margin-right: 301px;
+	margin-left: 405px; 
+}
+video{
+	width: 300px;
+	height: 290px;
+	bottom: 62px;
+	position: relative;
+}
+.topic{
+	position: relative;
+	left: 310px;
+	bottom: 300px;
+}
+h3{
+	color: black;
+	font-family: Calibri;
+}
+h5{
+	color: grey;
+	font-family: Calibri;
+	position: relative;
+	bottom:10px;
+}
+span{
+	color: grey;
+	position: relative;
+}
+
+button{
+	color: grey;
+	position: relative;
+	top:15px;
+	border: none;
+	height: 30px;
+	width: 72px;
+	padding-right:15px;
+}
+.icon1{
+	background-color: #B155BE;/*purple*/
+	color: white;
+	position: relative;
+	height: 35px;
+	width: 50px;
+	right: 10px;
+	padding-top: 20px;
+	padding-left: 31px;
+	top: 45px;
+}
+.icon2{
+	background-color: tomato;/*red*/
+	color: white;
+	position: relative;
+	height: 35px;
+	width: 50px;
+	right: 10px;
+	padding-top: 20px;
+	padding-left: 28px;
+	margin-left: 80px;
+	bottom: 10px;
+}
+.icon3{
+	background-color: #40C44C;/*green*/
+	color: white;
+	position: relative;
+	height: 35px;
+	width: 50px;
+	right: 10px;
+	padding-top: 20px;
+	padding-left: 30px;
+	margin-left: 158px;
+	bottom: 65px;
+}
+.playbutton{
+	background-color: grey;
+	color: red;
+	position: relative;
+	width: 17px;
+	height: 5px;
+	right: 182px;
+	bottom: 110px;
+	padding: 17px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+a{
+	color: red;
+}
+p{
+	text-align: center;
+	color: white;
+	font-family:Calibri;
+	position: relative;
+	top: 80px;
+}
+
+

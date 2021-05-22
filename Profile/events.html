@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GCIT Events</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="events.css">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Bentham' rel='stylesheet'>
+	<script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+	<div id="sidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;>
+			<a href="index.html">Home</a><!--Index Page-->
+				<a href="cv.html">About Me</a><!--CV-->
+				<a href="bmi.html">Health</a><!--BMI-->
+				<a href="footprint.html">FootPrint</a><!--Places i visited-->
+				<a href="events.html">Events</a><!--Events held at gcit-->
+				<a href="college.html">Colleges</a><!--about college-->
+			</a>
+	</div>
+	<span style="font-size:40px;cursor:pointer;color:#000;" onclick="openNav()">&#9776;</span>
+
+<h1>GCIT Events</h1>
+<div class="box">
+	<div class="container-fluid">
+				<p>GCIT marks the Foudation Day every year. 2<sup>nd</sup> Foundation Day was marked on 1<sup>st</sup> November, commemorating the 11<sup>th</sup> Cornoation day of His Majesty the king in presence of His Eminence Lhalung Sungtrul Rinpoche. Coincidng with foundation day fate day was also held for two days. Foundation Day is indeed a memorable day for everyone of us.</p>
+				<!--You can click on these radio button to see images-->
+				<div class="radio-btn">
+					<input type="radio" id="btn1">
+					<input type="radio" id="btn2">
+					<input type="radio" id="btn3">
+					<input type="radio" id="btn4">
+					<input type="radio" id="btn5">
+				</div>
+				<img src="f1.jpeg" width="500px">
+				<br>
+				<p>In the begining of Autumn Semseter Games Competition is held among GCIT students and staffs. It is an opportiunity for us to showcase our talents and also we can interact with seniors. </p>
+				<img class="g1" src="g1.jpeg" width="500px">
+				<img class="g2" src="g2.jpeg" width="500px">
+				<br>
+				<p>GCIT hosted the 6<sup>th</sup> winter University games known as BHUTAN UNIVERSITY SPORTS FEDERATION GAMES(BUSF)</p>
+				<img class="busf2" src="BUSF2.jpeg" width="500px">
+				<img class="busf3" src="BUSF3.jpeg" width="500px">
+				<br>
+				<p>Every year on 11<sup>th</sup>November the nation joins together to celebrate the Birth Anniversary of His Majesty the 5<sup>th</sup>Druk Gyalpo. On this auspicious day GCIT family gathers to recite 5<sup>th</sup>Druk Gyalpo's Zhabten and also offers butter lamps. Then followed by cultrual dances by the scholars of GCIT.</p>
+				<img class="k1" src="k3.jpeg" width="500px">	
+				<img class="k2" src="k2.jpeg" width="500px">
+				<br>
+				<p>For the warm welcome of fresher students, welcome show is conducted in the beginning of fall semester. To thank senior students, return show is held by freshers after few weeks.</p>
+				<img class="w1" src="w1.jpeg" width="500px">
+				<img class="w2" src="w2.jpeg" width="500px">
+				<p>The annual ritual of Gyalpozhing College is conducted every year for the benefit of all the living beings and especisally to protect the family of GCIT.</p>
+				<div class="slider-out">
+					<img src="arrow-left.jpeg" class="prev"> <!--click on the button to see previous image-->
+					<div class="slider-in">
+						<img r1 class="active" src="r1.jpeg" width="500px">
+						<img class="r2" src="r2.jpeg" width="500px">
+						<img class="r3" src="r3.jpeg" width="500px">
+						<img class="r4" src="r4.jpeg" width="500px"> <!--click on the button to see next image-->
+					</div>
+					<img src="arrow-right.jpeg" class="next">
+				</div>
+			</div>
+			</div>
+		</div>
+		<p class="info">For more Information visit: <a href="https://www.gcit.edu.bt/gcit/events/">www.gcit.edu.bt/gcit/events/</a></p>
+	<!--Footer-->
+		<footer style="background: #323232;opacity: 0.8;">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-snapchat-ghost"></a>
+			<br><br>
+			<p class="text">Phuentsholing, Bhutan<br>Gyalpozhing College of Information Technology </p>
+			<p class="copyright">&copy Copyright 2020 tley All Rights Reserved</p>
+		</footer>	
+</div>
+</div>
+
+
+
+<script src="events.js"></script>
+<script>
+	function openNav() {
+		document.getElementById("sidenav").style.width = "235px";
+	}
+
+	function closeNav() {
+		document.getElementById("sidenav").style.width = "0";
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="result.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+	<div id="sidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;>
+			<a href="index.html">Home</a><!--Index Page-->
+				<a href="cv.html">About Me</a><!--CV-->
+				<a href="bmi.html">Health</a><!--BMI-->
+				<a href="footprint.html">FootPrint</a><!--Places i visited-->
+				<a href="events.html">Events</a><!--Events held at gcit-->
+				<a href="college.html">Colleges</a><!--about college-->
+			</a>
+	</div>
+	<span style="font-size:40px;cursor:pointer;color:#000;" onclick="openNav()">&#9776;</span>
+<!--Heading-->
+	<h2><b>Gyalpozhing college of information technology</b></h2>
+	<h3>Semester Exam Results</h3>
+<table class="fixed" width="100%" style="border: 1px solid #000;">
+	<col width="60%" />
+	<col width="40%" />
+	<tr style="border-bottom: 2px solid #000;">
+		<th style="padding-left: 5px;">Name: Thinley Wangmo</th>
+		<th style="border-left: 1px solid #000; padding-left: 5px;">Student No.: 12190089</th>
+	</tr>
+
+	<tr>
+		<th style="padding-left: 5px">Course: Bachelor of Science in Information Technology</th>
+		<th style="border-left: 1px solid #000; padding-left: 5px;">Semester: I</th>
+	</tr>
+
+	<table style="border: 1px solid #67ae20;" width="100%" class="result" id="result">
+		<col width="10%" />
+        <col width="35%" />
+        <col width="10%" />
+        <col width="10%" />
+        <col width="10%" />
+        <col width="10%" />
+
+        <tr style="border-top: 1px solid #000; border-bottom: 1px solid #67ae20;">
+        	<th style="text-align: center;">Module Code</th>
+        	<th style="text-align: center; border-left: 1px solid #67ae20;">Module Name</th>
+        	<th style="text-align: center; border-left: 1px solid #67ae20;">CA<br>Theory</th>
+        	<th style="text-align: center; border-left: 1px solid #67ae20;">Semester<br>Exam</th>
+        	<th style="text-align: center; border-left: 1px solid #67ae20;">Total<br>Marks</th>
+        	<th style="text-align: center; border-left: 1px solid #67ae20;">Action</th>
+        </tr>
+        <tr>
+        	<td style="text-align: center;">ITF101</td>
+        	<td style="text-align: left; border-left: 1px solid #67ae20; padding-left: 5px;">Funadmentals of Operating Systems</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">39.2</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">26.4</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">65.6</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20"><a onClick="onEdit(this)">Edit</a> <a onClick="onDelete(this">Delete</a></td>
+        </tr>
+        <tr style="border-top: 1px solid #67ae20">
+        	<td style="text-align: center;">ITP101</td>
+        	<td style="text-align: left; border-left: 1px solid #67ae20; padding-left: 5px;">Introduction to Programming Language</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">42.65</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">22.6</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">65.25</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20"><a onClick="onEdit(this)">Edit</a> <a onClick="onDelete(this">Delete</a></td>
+        </tr>
+        <tr style="border-top: 1px solid #67ae20">
+        	<td style="text-align: center;">ITP102</td>
+        	<td style="text-align: left; border-left: 1px solid #67ae20; padding-left: 5px;">Object Oriented Programming Fundamentals (Java)</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">34.5</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">20.7</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">55.2</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20"><a onClick="onEdit(this)">Edit</a> <a onClick="onDelete(this">Delete</a></td>
+        </tr>
+        <tr style="border-top: 1px solid #67ae20">
+        	<td style="text-align: center;">MAT210</td>
+        	<td style="text-align: left; border-left: 1px solid #67ae20; padding-left: 5px;">Discrete Mathematics</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">27</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">51.8</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">78.8</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20"><a onClick="onEdit(this)">Edit</a> <a onClick="onDelete(this">Delete</a></td>
+        </tr>
+        <tr style="border-top: 1px solid #67ae20">
+        	<td style="text-align: center;">DZG101</td>
+        	<td style="text-align: left; border-left: 1px solid #67ae20; padding-left: 5px;">Dzongkha Communication</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">32</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">25</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20;">57</td>
+        	<td style="text-align: center; border-left: 1px solid #67ae20"><a onClick="onEdit(this)">Edit</a> <a onClick="onDelete(this">Delete</a></td>
+        </tr>
+        <tbody>
+        	
+        </tbody>
+        <tr style="border-top: 1px solid #67ae20; border-bottom: 1px solid #67ae20;">
+        	<th style="text-align: center; color: red;">REMARKS</th>
+        	<td style="padding-left: 5px; border-left: 1px solid #67ae20; color: red"><b>PASS</b></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        	<td></td>
+        </tr>
+        <table style="border: 1px solid #67ae20;" width="100%">
+        	<col width="60%" />
+        	<col width="40%" />
+        	<tr style="border-bottom: 1px solid #67ae20;">
+        		<td style="padding-left: 5px;"><b>Maximum Weighted Marks:</b> 500</td>
+     
+        		<td style="padding-left: 5px; border-left: 1px solid #67ae20"><b>Total Weighted marks Secured:</b> 322</td>
+        	</tr>
+        	<tr>
+        		<td style="padding-left: 5px;"><b>Percentage Secured:</b> 64.4</td>
+        		<td style="padding-left: 5px; border-left: 1px solid #67ae20"><b>Level of Performance</b> Good</td>
+        	</tr>
+        </table>
+	</table>
+</table>
+<br><br>
+
+<table>
+	<tr>
+		<td style="padding-left: 40px;">
+			<form onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
+				<div>
+					<label>Module Code: </label>
+					<input type="text" name="mcode" id="mcode" style="background-color: #bfd6a7; width: 100%; border: none; height: 50px; border-radius: 5px;" required>
+				</div>
+				<div style="padding-top: 10px;">
+					<label>Module Name: </label>
+					<input type="text" name="mname" id="mname" style="background-color: #bfd6a7; width: 100%; border: none; height: 50px; border-radius: 5px;" required>
+				</div>
+				<div style="padding-top: 10px;">
+					<label>CA Theory: </label>
+					<input type="text" name="ca" id="ca" style="background-color: #bfd6a7; width: 100%; border: none; height: 50px; border-radius: 5px;" required>
+				</div>
+				<div style="padding-top: 10px;">
+					<label>Semester Exam: </label>
+					<input type="text" name="sexam" id="sexam" style="background-color: #bfd6a7; width: 100%; border: none; height: 50px; border-radius: 5px;" required>
+				</div>
+				<div style="padding-top: 10px;">
+					<label>Total Marks: </label>
+					<input type="text" name="marks" id="marks" style="background-color: #bfd6a7; width: 100%; border: none; height: 50px; border-radius: 5px;" required>
+				</div>
+				<div style="text-align: left; padding-top: 15px;">
+					<input type="submit" value="Submit" style="background-color: #e0ebd5; width: 40%; border: none; height: 40px; border-radius: 5px; font-weight: bold; font-size: 18px;">
+				</div>
+			</form>
+		</td>
+	</tr>
+</table>
+
+
+</div>
+
+<script>
+	function openNav() {
+		document.getElementById("sidenav").style.width = "235px";
+	}
+
+	function closeNav() {
+		document.getElementById("sidenav").style.width = "0";
+	}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/dropdown.js"></script>
+<script>
+    var selectedRow = null
+function onFormSubmit() {
+  var formData = readFormData();
+  if (selectedRow == null)
+    insertNewRecord(formData);
+  else
+    updateRecord(formData);
+  resetForm();
+}
+
+
+function readFormData() {
+  var formData = {};
+  formData["mcode"] = document.getElementById("mcode").value;
+  formData["mname"] = document.getElementById("mname").value;
+  formData["ca"] = document.getElementById("ca").value;
+  formData["sexam"] = document.getElementById("sexam").value;
+  formData["marks"] = document.getElementById("marks").value;
+  return formData;
+}
+
+function insertNewRecord(data) {
+  var table = document.getElementById("result").getElementsByTagName('tbody')[0];
+  var newRow = table.insertRow(table.length);
+  cell1 = newRow.insertCell(0);
+  cell1.innerHTML = data.mcode;
+  cell2 = newRow.insertCell(1);
+  cell2.innerHTML = data.mname;
+  cell3 = newRow.insertCell(2);
+  cell3.innerHTML = data.ca;
+  cell4 = newRow.insertCell(3);
+  cell4.innerHTML = data.sexam;
+  cell5 = newRow.insertCell(4);
+  cell5.innerHTML = data.marks;
+  cell6 = newRow.insertCell(5);
+  cell6.innerHTML = `<a onClick="onEdit(this)">Edit</a>
+                 <a onClick="onDelete(this)">Delete</a>`;
+                   }
+
+
+function resetForm() {
+  document.getElementById("mcode").value = "";
+  document.getElementById("mname").value = "";
+  document.getElementById("ca").value = "";
+  document.getElementById("sexam").value = "";
+  document.getElementById("marks").value = "";
+  selectedRow = null;
+}
+
+
+function onEdit(td) {
+  selectedRow = td.parentElement.parentElement;
+  document.getElementById("mcode").value = selectedRow.cells[0].innerHTML;
+  document.getElementById("mname").value = selectedRow.cells[1].innerHTML;
+  document.getElementById("ca").value = selectedRow.cells[2].innerHTML;
+  document.getElementById("sexam").value = selectedRow.cells[3].innerHTML;
+  document.getElementById("marks").value = selectedRow.cells[4].innerHTML;
+}
+
+function updateRecord(formData) {
+  selectedRow.cells[0].innerHTML = formData.mcode;
+  selectedRow.cells[1].innerHTML = formData.mname;
+  selectedRow.cells[2].innerHTML = formData.ca;
+  selectedRow.cells[3].innerHTML = formData.sexam;
+  selectedRow.cells[4].innerHTML = formData.marks;
+}
+
+function onDelete(td) {
+  if (confirm('Are you sure to delete this record?')) {
+    row = td.parentElement.parentElement;
+    document.getElementById("result").deleteRow(row.rowIndex);
+    resetForm();
+  }
+}
+</script>
+</body>
+</html>

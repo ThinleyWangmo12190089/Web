@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BMI</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bmi.css">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="box">
+<!--Navigation menu to easily go to other pages-->
+	<div id="sidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;>
+			<a href="index.html">Home</a><!--Index Page-->
+				<a href="cv.html">About Me</a><!--CV-->
+				<a href="bmi.html">Health</a><!--BMI-->
+				<a href="footprint.html">FootPrint</a><!--Places i visited-->
+				<a href="events.html">Events</a><!--Events held at gcit-->
+				<a href="college.html">Colleges</a><!--about college-->
+			</a>
+	</div>
+	<span style="font-size:40px;cursor:pointer;color:#fff;" onclick="openNav()">&#9776;</span>
+<div class="container">
+	<h2 class="text-center">To keep your body healthy check your BMI:)</h2>
+	<div class="card">
+		<div class="card-header text-center">BMI Calculator</div>
+		<div class="card-body">
+			<form class="w-50 m-auto" onsubmit="return false" autocomplete="off">
+				<div class="form-group">
+					<label>Weight: </label>
+					<input type="text" name="" placeholder="Weight in Kg" required id="weight" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Height: </label>
+					<input type="text" name="" placeholder="Height in Ft" required id="height" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>BMI Value: </label>
+					<input type="number" name="" id="showvalue" class="form-control">
+				</div>
+				<div>
+					<button type="submit" class="btn btn-success" onclick="getbmivalue()"> Check BMI</button>
+				</div>
+			</form>
+		</div>
+		<div id="footer" class="card-footer text-center"> A healthy BMI ranges between 19 and 25. </div>
+	</div>
+</div>
+
+	<!--Footer-->
+		<footer style="background: #323232;opacity: 0.8;">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-snapchat-ghost"></a>
+			<br><br>
+			<p class="text">Phuentsholing, Bhutan +975 17565638 <br>Gyalpozhing College of Information Technology </p>
+			<p class="copyright">&copy Copyright 2020 tley All Rights Reserved</p>
+		</footer>
+</div>
+<script >
+	function getbmivalue() {
+		var weight = document.getElementById('weight').value;
+		var height = document.getElementById('height').value;
+
+		height = height * 12;
+		height = height * 0.025; //height in meter
+
+		var newbmivalue = weight / (Math.pow(height,2));
+
+		newbmivalue = Math.round(newbmivalue);
+
+		document.getElementById('showvalue').value = newbmivalue;
+	}	
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+<script>
+	function openNav() {
+		document.getElementById("sidenav").style.width = "235px";
+	}
+
+	function closeNav() {
+		document.getElementById("sidenav").style.width = "0";
+	}
+</script>
+</body>
+</html>
